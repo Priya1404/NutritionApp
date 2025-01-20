@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Platinum.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
