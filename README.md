@@ -63,3 +63,16 @@ This SwiftUI app helps users scan food items, analyze their nutritional informat
 - Navigate between screens using the Tab View.
 - Scan food using the camera or gallery.
 - View detailed nutritional analysis on the results page.
+
+## Screenshots
+
+
+![Simulator Screenshot - iPhone 14 - 2025-01-21 at 08 25 25](https://github.com/user-attachments/assets/92780707-47b0-46fd-9750-c95f24194c7d)
+![Simulator Screenshot - iPad (10th generation) - 2025-01-21 at 08 24 30](https://github.com/user-attachments/assets/bc845c2f-6498-420a-a53e-df9e63fd5c6a)
+![Simulator Screenshot - iPad (10th generation) - 2025-01-21 at 08 24 36](https://github.com/user-attachments/assets/b4de1616-9d3d-40ab-a3b8-32266d5fa1db)
+![Simulator Screenshot - iPad (10th generation) - 2025-01-21 at 08 24 40](https://github.com/user-attachments/assets/101d2a0f-9afc-4e6f-8353-29476a0b50b8)
+![Simulator Screenshot - iPad (10th generation) - 2025-01-21 at 08 24 45](https://github.com/user-attachments/assets/ce11ec2e-c484-48ff-b8fe-7383816b6048)
+![Simulator Screenshot - iPad (10th generation) - 2025-01-21 at 08 24 48](https://github.com/user-attachments/assets/c0c3709c-03cd-4f7b-b792-5d3c87a5f95f)
+![Simulator Screenshot - iPhone 14 - 2025-01-21 at 08 26 01](https://github.com/user-attachments/assets/25789c55-9173-4f15-9c33-5a78e5cd8122)
+![Simulator Screenshot - iPhone 14 - 2025-01-21 at 08 27 43](https://github.com/user-attachments/assets/f2110671-4274-42e0-846b-f7f294362d32)
+![Simulator Screenshot - iPad (10th generation) - 2025-01-21 at 08 24 58](https://github.com/user-attachments/assets/89eedc88-a5d9-4697-88d7-a551f7040005)
