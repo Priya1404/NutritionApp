@@ -12,16 +12,17 @@ struct CalendarView: View {
 
     var body: some View {
         VStack(spacing: 10) {
+            // Days Header
             HStack(spacing: 10) {
                 ForEach(days.indices, id: \.self) { index in
                     Text(days[index])
                         .font(.caption)
                         .bold()
                         .frame(maxWidth: .infinity)
-                        .foregroundColor(index >= 2 ? .green : .primary) //Mocked
+                        .foregroundColor(index >= 2 ? .green : .primary)
                 }
             }
-            
+
             // Date Rows
             ForEach(1...2, id: \.self) { row in
                 HStack(spacing: 10) {
@@ -47,7 +48,7 @@ struct CalendarView: View {
         .padding()
         .background(.white)
         .cornerRadius(20)
-        .overlay( /// apply a rounded border
+        .overlay(
             RoundedRectangle(cornerRadius: 20)
                 .stroke(.gray, lineWidth: 1)
         )

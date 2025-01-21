@@ -8,37 +8,42 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = TabViewModel()
     
     var body: some View {
-        TabView {
+        TabView(selection: $viewModel.selectedTab) {
             HomePageView()
                 .tabItem {
-                    Label("Home", image: "home")
+                    Label(Tab.home.rawValue, image: Tab.home.imageName)
                 }
+                .tag(Tab.home)
             
             LogsPageView()
                 .tabItem {
-                    Label("Logs", image: "logs")
+                    Label(Tab.logs.rawValue, image: Tab.logs.imageName)
                 }
+                .tag(Tab.logs)
 
             FoodScanningPageView()
                 .tabItem {
-                    Image("Scan Button")
+                    Image(Tab.scan.imageName)
                 }
                 .toolbar(.hidden, for: .tabBar)
+                .tag(Tab.scan)
 
             StreaksPageView()
                 .tabItem {
-                    Label("Streaks", image: "streaks")
+                    Label(Tab.streaks.rawValue, image: Tab.streaks.imageName)
                 }
+                .tag(Tab.streaks)
             
             ProfilePageView()
                 .tabItem {
-                    Label("Profile", image: "profile")
+                    Label(Tab.profile.rawValue, image: Tab.profile.imageName)
                 }
+                .tag(Tab.profile)
         }
-        .navigationBarBackButtonHidden(true)
-        .navigationViewStyle(StackNavigationViewStyle()) 
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

@@ -31,6 +31,22 @@
 		DF79A0D52D3EC6A300E159AC /* MilestoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0D42D3EC6A300E159AC /* MilestoneView.swift */; };
 		DF79A0D72D3EC73C00E159AC /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0D62D3EC73C00E159AC /* CalendarView.swift */; };
 		DF79A0D92D3ECBFC00E159AC /* NutrientValueGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0D82D3ECBFC00E159AC /* NutrientValueGroup.swift */; };
+		DF79A0E12D3F488000E159AC /* NutritionScannerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0E02D3F488000E159AC /* NutritionScannerVM.swift */; };
+		DF79A0E32D3F48E900E159AC /* NutritionTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0E22D3F48E900E159AC /* NutritionTabModel.swift */; };
+		DF79A0E62D3F49F100E159AC /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0E52D3F49F100E159AC /* HomeModel.swift */; };
+		DF79A0E92D3F4A1A00E159AC /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0E82D3F4A1A00E159AC /* HomeVM.swift */; };
+		DF79A0EC2D3F4A8300E159AC /* GreetingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0EB2D3F4A8300E159AC /* GreetingCardView.swift */; };
+		DF79A0F12D3F4DC100E159AC /* FoodScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0F02D3F4DC100E159AC /* FoodScannerModel.swift */; };
+		DF79A0F32D3F4DE400E159AC /* FoodScannerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0F22D3F4DE400E159AC /* FoodScannerVM.swift */; };
+		DF79A0F52D3F4E5E00E159AC /* GreetingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0F42D3F4E5E00E159AC /* GreetingCard.swift */; };
+		DF79A0F72D3F4EB200E159AC /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0F62D3F4EB200E159AC /* BottomBarView.swift */; };
+		DF79A0F92D3F4ED600E159AC /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0F82D3F4ED600E159AC /* BackButton.swift */; };
+		DF79A0FB2D3F4F0100E159AC /* FlashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0FA2D3F4F0100E159AC /* FlashButton.swift */; };
+		DF79A1002D3F54C400E159AC /* NutritionResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A0FF2D3F54C400E159AC /* NutritionResultsModel.swift */; };
+		DF79A1022D3F54D300E159AC /* NutritionResultsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A1012D3F54D300E159AC /* NutritionResultsVM.swift */; };
+		DF79A1042D3F588700E159AC /* NutrientCardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A1032D3F588700E159AC /* NutrientCardVM.swift */; };
+		DF79A10B2D3F60AC00E159AC /* StreaksVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A10A2D3F60AC00E159AC /* StreaksVM.swift */; };
+		DF79A10D2D3F639B00E159AC /* MilestoneVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79A10C2D3F639B00E159AC /* MilestoneVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +76,22 @@
 		DF79A0D42D3EC6A300E159AC /* MilestoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneView.swift; sourceTree = "<group>"; };
 		DF79A0D62D3EC73C00E159AC /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		DF79A0D82D3ECBFC00E159AC /* NutrientValueGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientValueGroup.swift; sourceTree = "<group>"; };
+		DF79A0E02D3F488000E159AC /* NutritionScannerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionScannerVM.swift; sourceTree = "<group>"; };
+		DF79A0E22D3F48E900E159AC /* NutritionTabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTabModel.swift; sourceTree = "<group>"; };
+		DF79A0E52D3F49F100E159AC /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		DF79A0E82D3F4A1A00E159AC /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		DF79A0EB2D3F4A8300E159AC /* GreetingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingCardView.swift; sourceTree = "<group>"; };
+		DF79A0F02D3F4DC100E159AC /* FoodScannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScannerModel.swift; sourceTree = "<group>"; };
+		DF79A0F22D3F4DE400E159AC /* FoodScannerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScannerVM.swift; sourceTree = "<group>"; };
+		DF79A0F42D3F4E5E00E159AC /* GreetingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingCard.swift; sourceTree = "<group>"; };
+		DF79A0F62D3F4EB200E159AC /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		DF79A0F82D3F4ED600E159AC /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		DF79A0FA2D3F4F0100E159AC /* FlashButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashButton.swift; sourceTree = "<group>"; };
+		DF79A0FF2D3F54C400E159AC /* NutritionResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionResultsModel.swift; sourceTree = "<group>"; };
+		DF79A1012D3F54D300E159AC /* NutritionResultsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionResultsVM.swift; sourceTree = "<group>"; };
+		DF79A1032D3F588700E159AC /* NutrientCardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientCardVM.swift; sourceTree = "<group>"; };
+		DF79A10A2D3F60AC00E159AC /* StreaksVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreaksVM.swift; sourceTree = "<group>"; };
+		DF79A10C2D3F639B00E159AC /* MilestoneVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +148,6 @@
 				DF79A0A62D3A4E6400E159AC /* Utilities */,
 				DF79A0992D3A4D5900E159AC /* Components */,
 				DF79A08B2D3A4CA700E159AC /* NutritionScannerApp.swift */,
-				DF79A08D2D3A4CA700E159AC /* ContentView.swift */,
 				DF79A08F2D3A4CA800E159AC /* Assets.xcassets */,
 				DF79A0912D3A4CA800E159AC /* Preview Content */,
 			);
@@ -134,6 +165,7 @@
 		DF79A0992D3A4D5900E159AC /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DF79A0DC2D3F47F500E159AC /* NutritionScannerModule */,
 				DF79A0CD2D3E8A0D00E159AC /* ProfilePageView */,
 				DF79A0CC2D3E8A0600E159AC /* LogsPageView */,
 				DF79A0B52D3BCCF200E159AC /* HomePageModule */,
@@ -147,9 +179,9 @@
 		DF79A09A2D3A4D8300E159AC /* FoodScannerModule */ = {
 			isa = PBXGroup;
 			children = (
-				DF79A0A72D3A4FDF00E159AC /* FoodScanningPageView.swift */,
-				DF79A0C22D3E6E2D00E159AC /* ScanningLoaderView.swift */,
-				DF79A0C42D3E706A00E159AC /* GalleryPickerView.swift */,
+				DF79A0EF2D3F4D7400E159AC /* Views */,
+				DF79A0EE2D3F4D6E00E159AC /* ViewModel */,
+				DF79A0ED2D3F4D6800E159AC /* Model */,
 			);
 			path = FoodScannerModule;
 			sourceTree = "<group>";
@@ -157,10 +189,9 @@
 		DF79A09B2D3A4D8D00E159AC /* StreaksModule */ = {
 			isa = PBXGroup;
 			children = (
-				DF79A0B12D3AA87800E159AC /* StreaksPageView.swift */,
-				DF79A0B32D3AA8AF00E159AC /* BadgeView.swift */,
-				DF79A0D42D3EC6A300E159AC /* MilestoneView.swift */,
-				DF79A0D62D3EC73C00E159AC /* CalendarView.swift */,
+				DF79A1072D3F609500E159AC /* View */,
+				DF79A1062D3F608E00E159AC /* ViewModel */,
+				DF79A1052D3F608800E159AC /* Model */,
 			);
 			path = StreaksModule;
 			sourceTree = "<group>";
@@ -168,11 +199,9 @@
 		DF79A09C2D3A4E1E00E159AC /* NutritionResultsModule */ = {
 			isa = PBXGroup;
 			children = (
-				DF79A0A92D3A64AC00E159AC /* NutritionResultsPageView.swift */,
-				DF79A0BB2D3E133A00E159AC /* NutrientCardView.swift */,
-				DF79A0C02D3E5D2500E159AC /* WeeklyMealNutrientChartView.swift */,
-				DF79A0D22D3EB6E700E159AC /* SectionHeader.swift */,
-				DF79A0D82D3ECBFC00E159AC /* NutrientValueGroup.swift */,
+				DF79A0FE2D3F546300E159AC /* Views */,
+				DF79A0FD2D3F545900E159AC /* ViewModel */,
+				DF79A0FC2D3F545300E159AC /* Model */,
 			);
 			path = NutritionResultsModule;
 			sourceTree = "<group>";
@@ -189,8 +218,9 @@
 		DF79A0B52D3BCCF200E159AC /* HomePageModule */ = {
 			isa = PBXGroup;
 			children = (
-				DF79A0C62D3E870200E159AC /* HomePageView.swift */,
-				DF79A0CE2D3E8E6300E159AC /* QuickAccessCardView.swift */,
+				DF79A0EA2D3F4A3C00E159AC /* Views */,
+				DF79A0E72D3F4A0A00E159AC /* ViewModel */,
+				DF79A0E42D3F49E100E159AC /* Model */,
 			);
 			path = HomePageModule;
 			sourceTree = "<group>";
@@ -209,6 +239,152 @@
 				DF79A0CA2D3E89B000E159AC /* ProfilePageView.swift */,
 			);
 			path = ProfilePageView;
+			sourceTree = "<group>";
+		};
+		DF79A0DC2D3F47F500E159AC /* NutritionScannerModule */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0DF2D3F484300E159AC /* View */,
+				DF79A0DE2D3F483C00E159AC /* ViewModel */,
+				DF79A0DD2D3F483500E159AC /* Model */,
+			);
+			path = NutritionScannerModule;
+			sourceTree = "<group>";
+		};
+		DF79A0DD2D3F483500E159AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0E22D3F48E900E159AC /* NutritionTabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF79A0DE2D3F483C00E159AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0E02D3F488000E159AC /* NutritionScannerVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF79A0DF2D3F484300E159AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A08D2D3A4CA700E159AC /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF79A0E42D3F49E100E159AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0E52D3F49F100E159AC /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF79A0E72D3F4A0A00E159AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0E82D3F4A1A00E159AC /* HomeVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF79A0EA2D3F4A3C00E159AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0CE2D3E8E6300E159AC /* QuickAccessCardView.swift */,
+				DF79A0C62D3E870200E159AC /* HomePageView.swift */,
+				DF79A0EB2D3F4A8300E159AC /* GreetingCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF79A0ED2D3F4D6800E159AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0F02D3F4DC100E159AC /* FoodScannerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF79A0EE2D3F4D6E00E159AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0F22D3F4DE400E159AC /* FoodScannerVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF79A0EF2D3F4D7400E159AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0C22D3E6E2D00E159AC /* ScanningLoaderView.swift */,
+				DF79A0F42D3F4E5E00E159AC /* GreetingCard.swift */,
+				DF79A0F62D3F4EB200E159AC /* BottomBarView.swift */,
+				DF79A0C42D3E706A00E159AC /* GalleryPickerView.swift */,
+				DF79A0A72D3A4FDF00E159AC /* FoodScanningPageView.swift */,
+				DF79A0F82D3F4ED600E159AC /* BackButton.swift */,
+				DF79A0FA2D3F4F0100E159AC /* FlashButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF79A0FC2D3F545300E159AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0FF2D3F54C400E159AC /* NutritionResultsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF79A0FD2D3F545900E159AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A1012D3F54D300E159AC /* NutritionResultsVM.swift */,
+				DF79A1032D3F588700E159AC /* NutrientCardVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF79A0FE2D3F546300E159AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0A92D3A64AC00E159AC /* NutritionResultsPageView.swift */,
+				DF79A0BB2D3E133A00E159AC /* NutrientCardView.swift */,
+				DF79A0D82D3ECBFC00E159AC /* NutrientValueGroup.swift */,
+				DF79A0C02D3E5D2500E159AC /* WeeklyMealNutrientChartView.swift */,
+				DF79A0D22D3EB6E700E159AC /* SectionHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF79A1052D3F608800E159AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF79A1062D3F608E00E159AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A10A2D3F60AC00E159AC /* StreaksVM.swift */,
+				DF79A10C2D3F639B00E159AC /* MilestoneVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF79A1072D3F609500E159AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF79A0B12D3AA87800E159AC /* StreaksPageView.swift */,
+				DF79A0B32D3AA8AF00E159AC /* BadgeView.swift */,
+				DF79A0D42D3EC6A300E159AC /* MilestoneView.swift */,
+				DF79A0D62D3EC73C00E159AC /* CalendarView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,24 +491,40 @@
 			files = (
 				DF79A0AA2D3A64AC00E159AC /* NutritionResultsPageView.swift in Sources */,
 				DF79A0CB2D3E89B000E159AC /* ProfilePageView.swift in Sources */,
+				DF79A0E32D3F48E900E159AC /* NutritionTabModel.swift in Sources */,
+				DF79A0E92D3F4A1A00E159AC /* HomeVM.swift in Sources */,
+				DF79A10D2D3F639B00E159AC /* MilestoneVM.swift in Sources */,
 				DF79A0D92D3ECBFC00E159AC /* NutrientValueGroup.swift in Sources */,
+				DF79A1002D3F54C400E159AC /* NutritionResultsModel.swift in Sources */,
 				DF79A0D12D3E91E800E159AC /* View+Extension.swift in Sources */,
+				DF79A1042D3F588700E159AC /* NutrientCardVM.swift in Sources */,
+				DF79A0F12D3F4DC100E159AC /* FoodScannerModel.swift in Sources */,
 				DF79A0C12D3E5D2500E159AC /* WeeklyMealNutrientChartView.swift in Sources */,
+				DF79A0E12D3F488000E159AC /* NutritionScannerVM.swift in Sources */,
+				DF79A0EC2D3F4A8300E159AC /* GreetingCardView.swift in Sources */,
+				DF79A1022D3F54D300E159AC /* NutritionResultsVM.swift in Sources */,
+				DF79A0F72D3F4EB200E159AC /* BottomBarView.swift in Sources */,
 				DF79A0A82D3A4FDF00E159AC /* FoodScanningPageView.swift in Sources */,
 				DF79A0C32D3E6E2D00E159AC /* ScanningLoaderView.swift in Sources */,
 				DF79A0BA2D3DF53E00E159AC /* Color+Extension.swift in Sources */,
+				DF79A0F92D3F4ED600E159AC /* BackButton.swift in Sources */,
+				DF79A0F32D3F4DE400E159AC /* FoodScannerVM.swift in Sources */,
 				DF79A0C92D3E899B00E159AC /* LogsPageView.swift in Sources */,
 				DF79A0CF2D3E8E6300E159AC /* QuickAccessCardView.swift in Sources */,
+				DF79A0F52D3F4E5E00E159AC /* GreetingCard.swift in Sources */,
 				DF79A08E2D3A4CA700E159AC /* ContentView.swift in Sources */,
 				DF79A0B22D3AA87800E159AC /* StreaksPageView.swift in Sources */,
 				DF79A0BC2D3E133A00E159AC /* NutrientCardView.swift in Sources */,
 				DF79A0D72D3EC73C00E159AC /* CalendarView.swift in Sources */,
+				DF79A10B2D3F60AC00E159AC /* StreaksVM.swift in Sources */,
 				DF79A0D32D3EB6E700E159AC /* SectionHeader.swift in Sources */,
 				DF79A0D52D3EC6A300E159AC /* MilestoneView.swift in Sources */,
 				DF79A0C72D3E870200E159AC /* HomePageView.swift in Sources */,
 				DF79A0B42D3AA8AF00E159AC /* BadgeView.swift in Sources */,
 				DF79A08C2D3A4CA700E159AC /* NutritionScannerApp.swift in Sources */,
 				DF79A0C52D3E706A00E159AC /* GalleryPickerView.swift in Sources */,
+				DF79A0E62D3F49F100E159AC /* HomeModel.swift in Sources */,
+				DF79A0FB2D3F4F0100E159AC /* FlashButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

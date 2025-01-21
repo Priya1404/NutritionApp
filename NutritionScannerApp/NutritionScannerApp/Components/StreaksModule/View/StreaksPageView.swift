@@ -10,9 +10,8 @@ import SwiftUI
 import SwiftUI
 
 struct StreaksPageView: View {
-    @State private var showShareSheet = false
-    let streakNumber = 5 // Mock data for streak count
-    
+    @StateObject private var viewModel = StreaksPageViewModel()
+
     var body: some View {
         NavigationView {
             ScrollView {
@@ -22,19 +21,19 @@ struct StreaksPageView: View {
                         Image("fire")
                             .resizable()
                             .frame(width: 120, height: 140)
-                        Text("\(streakNumber)")
+                        Text("\(viewModel.streakNumber)")
                             .font(.largeTitle)
                             .bold()
                             .foregroundColor(.black)
                     }
                     .padding(.top)
-                    
+
                     // Attributed Text
                     VStack(alignment: .center, spacing: 4) {
                         Text("You're on a")
                             .font(.subheadline)
                             .foregroundColor(.secondary)
-                        Text("\(streakNumber) Days Streak")
+                        Text("\(viewModel.streakNumber) Days Streak")
                             .font(.title2)
                             .bold()
                         Text("Keep it Up!")
@@ -43,33 +42,33 @@ struct StreaksPageView: View {
                     }
                     .multilineTextAlignment(.center)
                     .padding(.bottom)
-                    
+
                     ZStack {
                         // Calendar View
                         CalendarView()
                             .padding()
-                        
+
                         // Bottom Circular Badge
                         BadgeView()
-                        .offset(y: 55)
+                            .offset(y: 55)
                     }
                     Spacer()
-                    
+
                     // Milestones View
                     MilestoneView()
                 }
             }
             .navigationBarTitle("Streaks", displayMode: .inline)
             .navigationBarItems(trailing: Button(action: {
-                showShareSheet.toggle()
+                viewModel.showShareSheet.toggle()
             }) {
                 Image("Share")
             })
         }
-        .sheet(isPresented: $showShareSheet) {
+        .sheet(isPresented: $viewModel.showShareSheet) {
             Text("Share your streak!")
         }
-        .navigationViewStyle(StackNavigationViewStyle()) 
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

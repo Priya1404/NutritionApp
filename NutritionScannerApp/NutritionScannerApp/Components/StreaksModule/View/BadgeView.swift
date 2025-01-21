@@ -7,9 +7,7 @@
 
 import SwiftUI
 
-// Badge View
 struct BadgeView: View {
-
     var body: some View {
         HStack {
             Image("Bronze")
@@ -23,7 +21,7 @@ struct BadgeView: View {
         .padding(.bottom, 1)
         .background(Color(hex: "#FFF8F0"))
         .cornerRadius(15)
-        .overlay( /// apply a rounded border
+        .overlay(
             RoundedRectangle(cornerRadius: 20)
                 .stroke(.gray, lineWidth: 0.5)
         )

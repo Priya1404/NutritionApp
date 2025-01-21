@@ -49,6 +49,7 @@ struct ScanningLoaderView: View {
         .onAppear {
             startScanning()
         }
+        .navigationBarHidden(true)
         .navigate(to: NutritionResultsPageView(), when: $isScanningComplete)
     }
 
